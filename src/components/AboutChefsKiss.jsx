@@ -10,7 +10,7 @@ export default function AboutChefsKiss() {
       </p>
       <p>
         Add at least 4 ingredients below, and our virtual chef will whip up 
-        a recipe that’s practical, delicious, and totally unique. 👩🏽‍🍳✨
+        a recipe that’s practical, delicious, and totally unique.
       </p>
     </section>
   );
