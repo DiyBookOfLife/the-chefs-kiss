@@ -8,7 +8,7 @@ try not to include too many extra ingredients. Format your response in markdown 
 to render to a web page
 `
 
-const hf = new InferenceClient(import.meta.env.VITE_HF_ACCESS_TOKEN)
+const hf = new InferenceClient(import.meta.env.VITE_API_KEY)
 
 export async function getRecipeFromHuggingFace(ingredientsArr) {
     const ingredientsString = ingredientsArr.join(", ")
