@@ -9,8 +9,8 @@ export default function AboutChefsKiss() {
          and our virtual chef will suggest creative, ready-to-cook dishes tailored to you.
       </p>
       <p>
-        Add at least 4 ingredients below, and our virtual chef will whip up something 
-        watch our digital chef craft a recipe that’s practical, delicious, and totally unique. 👩🏽‍🍳✨
+        Add at least 4 ingredients below, and our virtual chef will whip up 
+        a recipe that’s practical, delicious, and totally unique. 👩🏽‍🍳✨
       </p>
     </section>
   );
