@@ -4,7 +4,7 @@
 
 > Generate recipes using the ingredients you already have — powered by intelligent AI.
 
-## \*\*Live Demo: [View Portfolio on Vercel](https://toni-thomas.vercel.app/)
+## \*\*Live Demo: [View Portfolio on Vercel](https://the-chefs-kiss.vercel.app/)
 
 ## 🌟 Overview
 
