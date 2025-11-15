@@ -10,7 +10,7 @@ export default function Body() {
   const [recipe, setRecipe] = React.useState("");
 
   async function getRecipe() {
-    const recipeApi = await getRecipeFromAPI(ingredients);
+    const recipeApi = await getRecipeFromHuggingFace(ingredients);
     setRecipe(recipeApi);
   }
 
