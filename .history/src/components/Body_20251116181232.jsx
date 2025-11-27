@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { getRecipeFromAPI } from "../ai.js";
 import IngredientsList from "./IngredientsList.jsx";
 import RecipeResponse from "./RecipeResponse.jsx";
@@ -8,15 +8,7 @@ export default function Body() {
   const [ingredients, setIngredients] = React.useState([]);
 
   const [recipe, setRecipe] = React.useState("");
-
   const recipeScroll = React.useRef(null);
-
-  useEffect(() => {
-    if (recipe) {
-      recipeScroll.current.scrollIntoView({ behavior: "smooth" });
-    }
-  }, [recipe]);
-  console.log(recipeScroll);
 
   async function getRecipe() {
     const recipeApi = await getRecipeFromAPI(ingredients);

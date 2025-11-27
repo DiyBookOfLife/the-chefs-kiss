@@ -8,14 +8,10 @@ export default function Body() {
   const [ingredients, setIngredients] = React.useState([]);
 
   const [recipe, setRecipe] = React.useState("");
-
   const recipeScroll = React.useRef(null);
-
   useEffect(() => {
-    if (recipe) {
-      recipeScroll.current.scrollIntoView({ behavior: "smooth" });
-    }
-  }, [recipe]);
+    recipeScroll.current.scrollIntoView();
+  }, []);
   console.log(recipeScroll);
 
   async function getRecipe() {

@@ -5,7 +5,13 @@ import RecipeResponse from "./RecipeResponse.jsx";
 import AboutChefsKiss from "./AboutChefsKiss.jsx";
 
 export default function Body() {
-  const [ingredients, setIngredients] = React.useState([]);
+  const [ingredients, setIngredients] = React.useState([
+    "chicken",
+    "all the main spices",
+    "corn",
+    "heavy cream",
+    "pasta",
+  ]);
 
   const [recipe, setRecipe] = React.useState("");
 
